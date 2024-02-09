@@ -1,1 +1,2 @@
-# git-and-github
+### Git & Github
+- Git is great ;)
