@@ -23,21 +23,4 @@
 > git version
 ```
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/screenshots/git_version.png)  
-
-#### Configuring Git:  
-- Git can be configured using the name and an email.  
-- Commands to configure:  
-```
-#command to configure name globally  
-> git config --global user.name <user-name>  
-
-#command to get the user name that is set  
-> git config user.name  
-
-#command to configure email globally  
-> git config --global user.email <email-address>    
-
-#command to get an email address that is set  
-> git config user.email  
-```
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/setup/images/git_version.png)  
