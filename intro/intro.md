@@ -1,4 +1,6 @@
 # Git  
+
+<a name="top"></a>
 - [ Intro ](#intro)  
 - [ Advantages ](#advantages)  
 - [ Limitations ](#limitations)
@@ -35,6 +37,10 @@
 - Can revert back to the previous versions.  
 - Can collaborate and share the changes.  
 - Changes can be combined.  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
 
 <a name="intro"></a>
 ### Terminology:    
@@ -130,4 +136,8 @@
     - verify-pack
     - write-tree
 
-- Reference: [Doc](https://git-scm.com/docs)
+- Reference: [Doc](https://git-scm.com/docs)  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
