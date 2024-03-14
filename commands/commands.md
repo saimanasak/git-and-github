@@ -1,4 +1,4 @@
-### git:  
+## git:  
 - A primary interface for interacting with Git.
 - Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
 - Syntax:
@@ -38,7 +38,7 @@
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_options.png)  
 
-### config:  
+## config:  
 - Used to set and get the configuration variables.
 - Controls various aspects of Git's behaviour like user info, core settings, repo related config etc..
 - Syntax:  
@@ -46,9 +46,7 @@
 - **--list**:
     - used to get all the config variables along with their variables.
     - Command:
-        ```
-        git config --list
-        ```
+        `git config --list`
 
         ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_config_list.png)   
     
@@ -77,4 +75,22 @@
     - We can edit the config file.
     - Syntax:
         `git config --edit`
+
+## init:
+- this turns a local folder that isn't under version control into git repo.
+- creates an new empty git repo.
+- also reinitializes an existing repo.
+- Syntax:
+    `git init`
+- During this initialization, a hidden .git folder is created, and this contains all the info that Git uses to manage the project.
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init.png)  
+
+- By default, when a local is initialized to git repo, it will be on the **master** branch.
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init_master.png)  
+
+- We can also set our own branch name while initializing a repo using:
+    `git init -b <branch-name>`
+    `git init --initial-branch=<branch-name>`
 
