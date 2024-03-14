@@ -32,9 +32,38 @@
         - Revision Control System (RCS)  
         - Source Code Control System (SCCS)  
         - Version SourceSafe (VSS)  
+    - Advantages:  
+        - Simple  
+        - Speed  
+        - Offline Access  
+        - No dependencies  
+        - Low overhead  
     - Limitations:  
         - No collaboration  
         - Risk of data loss  
         - No remote access  
-        
-    ![LCVS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.drawio.png)  
+
+      ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.drawio.png)  
+
+2. **CVCS**  
+    - Central Version Control System  
+    - There's a single, central repo which stores all the versions of files and thier history as well.  
+    - Developers can checkout the files from this central repo to work on them, and then changes are committed back to the central server.  
+    - i.e., all the users will have their own working copy, whenever the changes are made they get reflected directly in the central repo that means files are affected knowingly or unknowingly.  
+    - Examples:  
+        - Subversion (SVN)  
+        - Perforce (Helix Core)  
+        - Microsoft Team Foundation Version Control System (TFVC)  
+        - Apache Concurrent Version System (CVS)  
+    - Advantages:  
+        - Centralized Management  
+        - Versioning and History  
+        - Access Control  
+        - Collaboration  
+    - Limitations:  
+        - Single point of failure  
+        - Network dependency  
+        - Limited offline access  
+        - Potential data loss  
+     
+      ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
