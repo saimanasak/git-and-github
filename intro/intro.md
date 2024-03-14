@@ -1,32 +1,133 @@
-### Git  
-- Git is a free open source version control system that allows to track the changes of the files and to collaborate the work among multiple developers.  
-- Git is known as a Version Control System (VCS).  
+# Git  
+- [ Intro ](#intro)  
+- [ Advantages ](#advantages)  
+- [ Limitations ](#limitations)
+- [ Why Git? ](#why-git)
+- [ Terminology ](#terminology)
+
+<a name="intro"></a>
+### Intro   
+- Git is a free open source distributed version control system.
+- It allows to track the changes of the files and to collaborate the work among multiple developers.  
 - It runs locally on a machine.  
-- Other than git, there are many other alternatives like Mercurial, Subversion (SVN), Perforce (Helix Core), CVS etc...
 
-### Version Control System:  
-- It is also known as Versioning or Source Control.  
-- It is a software that helps to manage and track changes to the files over time.  
-- It allows users to revisit the earlier versions of the files, compares the changes between the versions, undo the changes and so on...  
-- Generally, the main purpose is to facilitate the collaboration among the multiple developers working on a shared project and to keep the history of the changes that are made in the project.  
-- There are two types of VCSs:  
-    1. **CVCS** - Centralized Version Control System
-        - It acts like a central server to store all the files.  
-        - Each of the user gets their own copy using a single central repo/server.  
-    2. **DCVS** - Distributed Version Control System  
-        - It has multiple repos to store the files. 
-        - Where each user gets a complete project into theie local and can merge it with the main repo after making the changes.  
-- Why DCVS over CVCS???
-    - High Felixibility
-    - Faster Performance
-    - Enhanced Collaboration
-    - Decentralized
-    - Offline Work  
+<a name="intro"></a>
+### Advantages:  
+- Free and open-source  
+- Distributed architecture  
+- Small and fast   
+- Data assurance  
+- High performance  
+- Staging area  
+- Merging  
+- Branching  
 
-### Why Git???
+<a name="intro"></a>
+### Limitations:  
+- Risk of conflicts  
+- Potential for fragmentation (if not managed carefully)
+
+<a name="intro"></a>
+### Why Git?
 - It tracks the changes across multiple files.  
 - It compares all the versions of a project.  
 - Works like a "Time Machine" where we can go back to the old versions.  
 - Can revert back to the previous versions.  
 - Can collaborate and share the changes.  
 - Changes can be combined.  
+
+<a name="intro"></a>
+### Terminology:    
+1. Setup:  
+    - installation
+2. Config:  
+    - git  
+    - config  
+    - help  
+    - bugreport  
+3. Creating & getting projects:  
+    - init  
+    - clone  
+4. Basic snapshotting:  
+    - add  
+    - status  
+    - commit   
+    - restore
+    - reset  
+    - rm  
+    - mv  
+    - notes  
+5. Branching and Merging:  
+    - branch  
+    - checkout  
+    - switch  
+    - merge
+    - mergetool  
+    - stash   
+    - worktree  
+6. Sharing and updating projects:  
+    - fetch  
+    - pull  
+    - push  
+    - remote  
+    - submodule  
+7. Inspection and comparison:  
+    - show  
+    - diff  
+    - log  
+    - shortlog
+    - describe  
+    - difftool  
+    - range-diff  
+8. Debugging:  
+    - grep  
+    - bisect  
+    - blame  
+9. Patching:  
+    - rebase  
+    - revert  
+    - apply  
+    - cherry-pick  
+10. email:  
+    - am  
+    - send-email
+    - format-patch
+    - request-pull  
+11. External Systems:  
+    - svn  
+    - fast-import  
+12. Administration:  
+    - clean  
+    - reflog  
+    - gc
+    - fsck  
+    - archive  
+    - filter-branch
+    - instaweb  
+    - bundle  
+13. Server admin:  
+    - daemon  
+    - update-server-info  
+14. Plumbing commands:  
+    - cat-file
+    - check-ignore
+    - checkout-index
+    - commit-tree
+    - count-objects
+    - diff-index
+    - for-each-ref
+    - hash-object
+    - ls-files
+    - ls-tree
+    - merge-base
+    - read-tree
+    - rev-list
+    - rev-parse
+    - show-ref
+    - symbolic-ref
+    - update-index
+    - update-ref
+    - verify-pack
+    - write-tree
+
+- Reference: [Doc](https://git-scm.com/docs)
