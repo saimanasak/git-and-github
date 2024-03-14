@@ -43,76 +43,76 @@
 
 <a name="lvcs"></a>
 ### 1. **LVCS**  
-    - Local Version Control System  
-    - It is very simple compared to other VCS.  
-    - It involves a simple database or a repository which is located locally, this repo stores all the versions of a file and additional info like commit messages and its timestamps etc..  
-    - And that is how all the changes made to files are tracked within this local database.  
-    - There's no remote server in this case i.e., no sharing of the files happen here.  
-    - Examples:  
-        - Revision Control System (RCS)  
-        - Source Code Control System (SCCS)  
-        - Version SourceSafe (VSS)  
-    - Advantages:  
-        - Simple  
-        - Speed  
-        - Offline access  
-        - No dependencies  
-        - Low overhead  
-    - Limitations:  
-        - No collaboration  
-        - Risk of data loss  
-        - No remote access  
+- Local Version Control System  
+- It is very simple compared to other VCS.  
+- It involves a simple database or a repository which is located locally, this repo stores all the versions of a file and additional info like commit messages and its timestamps etc..  
+- And that is how all the changes made to files are tracked within this local database.  
+- There's no remote server in this case i.e., no sharing of the files happen here.  
+- Examples:  
+    - Revision Control System (RCS)  
+    - Source Code Control System (SCCS)  
+    - Version SourceSafe (VSS)  
+- Advantages:  
+    - Simple  
+    - Speed  
+    - Offline access  
+    - No dependencies  
+    - Low overhead  
+- Limitations:  
+    - No collaboration  
+    - Risk of data loss  
+    - No remote access  
 
-      ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.png)  
+    ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.png)  
 
 <a name="cvcs"></a>
 ### 2. **CVCS**  
-    - Centralized Version Control System  
-    - There's a single, central repo which stores all the versions of files and thier history as well.  
-    - Developers can checkout the files from this central repo to work on them, and then changes are committed back to the central server.  
-    - i.e., all the users will have their own working copy, whenever the changes are made they get reflected directly in the central repo that means files are affected knowingly or unknowingly.  
-    - Examples:  
-        - Subversion (SVN)  
-        - Perforce (Helix Core)  
-        - Microsoft Team Foundation Version Control System (TFVC)  
-        - Apache Concurrent Version System (CVS)  
-    - Advantages:  
-        - Centralized management  
-        - Versioning and history  
-        - Access control  
-        - Collaboration  
-    - Limitations:  
-        - Single point of failure  
-        - Network dependency  
-        - Limited offline access  
-        - Potential data loss  
+- Centralized Version Control System  
+- There's a single, central repo which stores all the versions of files and thier history as well.  
+- Developers can checkout the files from this central repo to work on them, and then changes are committed back to the central server.  
+- i.e., all the users will have their own working copy, whenever the changes are made they get reflected directly in the central repo that means files are affected knowingly or unknowingly.  
+- Examples:  
+    - Subversion (SVN)  
+    - Perforce (Helix Core)  
+    - Microsoft Team Foundation Version Control System (TFVC)  
+    - Apache Concurrent Version System (CVS)  
+- Advantages:  
+    - Centralized management  
+    - Versioning and history  
+    - Access control  
+    - Collaboration  
+- Limitations:  
+    - Single point of failure  
+    - Network dependency  
+    - Limited offline access  
+    - Potential data loss  
      
-      ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
+    ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
 
 <a name="dvcs"></a>
 ### 3. **DVCS**  
-    - Distributed Version Control System  
-    - It allows multiple users to collaborate on a project by maintaining a distributed copy of the whole repo on each user's local.  
-    - Here, all users will have complete history of project that includes branches, commits, and are stored locally.  
-    - Can make changes without affecting the remote repo.  
-    - Work flow:  
-        `User ----> Commit changes to local repo ----> Push the changes to remote repo`  
-    - Examples:  
-        - Git  
-        - Mercurial  
-        - Bazaar  
-        - Darcas  
-    - Advantages:  
-        - Decentralization  
-        - Offline work  
-        - Redundancy  
-        - Effective collaboration  
-        - Security  
-        - Flexibility  
-    - Limitations:  
-        - Risk of conflicts  
+- Distributed Version Control System  
+- It allows multiple users to collaborate on a project by maintaining a distributed copy of the whole repo on each user's local.  
+- Here, all users will have complete history of project that includes branches, commits, and are stored locally.  
+- Can make changes without affecting the remote repo.  
+- Work flow:  
+    `User ----> Commit changes to local repo ----> Push the changes to remote repo`  
+- Examples:  
+    - Git  
+    - Mercurial  
+    - Bazaar  
+    - Darcas  
+- Advantages:  
+    - Decentralization  
+    - Offline work  
+    - Redundancy  
+    - Effective collaboration  
+    - Security  
+    - Flexibility  
+- Limitations:  
+    - Risk of conflicts  
     
-      ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/DVCS.png)    
+    ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/DVCS.png)    
 
 <a name="why dvcs"></a>
 ### Why DVCS?  
