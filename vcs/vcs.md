@@ -17,10 +17,6 @@
 - It allows users to revisit the earlier versions of the files, compares the changes between the versions, undo the changes and so on...  
 - Generally, the main purpose is to facilitate the collaboration among the multiple developers working on a shared project and to keep the history of the changes that are made in the project.  
 
-<p align="right">
-  <a href="#top">▲Home▲</a>
-</p>
-
 <a name="features"></a>
 ### Features of VCS:  
 - Can track changes made to a file i.e., Versioning.  
@@ -28,10 +24,6 @@
 - Can ignore the files that we don't want to track.  
 - Can go back to the previous states of a file.  
 - Commits, Branching, Collaboration...  
-
-<p align="right">
-  <a href="#top">▲Home▲</a>
-</p>
 
 <a name="why"></a>
 ### Why?  
