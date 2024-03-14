@@ -1,4 +1,6 @@
 # Version Control System:  
+
+<a name="top"></a>
 - [ Intro ](#intro)
 - [ Features of VCS ](#features-of-vcs)
 - [ Why VCS? ](#why)
@@ -15,6 +17,10 @@
 - It allows users to revisit the earlier versions of the files, compares the changes between the versions, undo the changes and so on...  
 - Generally, the main purpose is to facilitate the collaboration among the multiple developers working on a shared project and to keep the history of the changes that are made in the project.  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
 <a name="features"></a>
 ### Features of VCS:  
 - Can track changes made to a file i.e., Versioning.  
@@ -22,6 +28,10 @@
 - Can ignore the files that we don't want to track.  
 - Can go back to the previous states of a file.  
 - Commits, Branching, Collaboration...  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
 
 <a name="why"></a>
 ### Why?  
@@ -33,6 +43,10 @@
 - Traceability / Compare changes  
 - Quality of Code  
 - Low Overhead  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
 
 <a name="types"></a>
 ### Different types:    
@@ -65,6 +79,10 @@
 
     ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.png)  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
 <a name="cvcs"></a>
 ### 2. **CVCS**  
 - Centralized Version Control System  
@@ -88,6 +106,10 @@
     - Potential data loss  
      
     ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
 
 <a name="dvcs"></a>
 ### 3. **DVCS**  
@@ -121,4 +143,8 @@
 - Faster Performance
 - Enhanced Collaboration
 - Decentralized
-- Offline Work
+- Offline Work  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
