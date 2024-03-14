@@ -35,7 +35,7 @@
     - Advantages:  
         - Simple  
         - Speed  
-        - Offline Access  
+        - Offline access  
         - No dependencies  
         - Low overhead  
     - Limitations:  
@@ -43,7 +43,7 @@
         - Risk of data loss  
         - No remote access  
 
-      ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.drawio.png)  
+      ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.png)  
 
 2. **CVCS**  
     - Central Version Control System  
@@ -56,9 +56,9 @@
         - Microsoft Team Foundation Version Control System (TFVC)  
         - Apache Concurrent Version System (CVS)  
     - Advantages:  
-        - Centralized Management  
-        - Versioning and History  
-        - Access Control  
+        - Centralized management  
+        - Versioning and history  
+        - Access control  
         - Collaboration  
     - Limitations:  
         - Single point of failure  
@@ -67,3 +67,27 @@
         - Potential data loss  
      
       ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
+
+3. **DVCS**  
+    - Distributed Version Control System  
+    - It allows multiple users to collaborate on a project by maintaining a distributed copy of the whole repo on each user's local.  
+    - Here, all users will have complete history of project that includes branches, commits, and are stored locally.  
+    - Can make changes without affecting the remote repo.  
+    - Work flow:  
+        `User ----> Commit changes to local repo ----> Push the changes to remote repo`  
+    - Examples:  
+        - Git  
+        - Mercurial  
+        - Bazaar  
+        - Darcas  
+    - Advantages:  
+        - Decentralization  
+        - Offline work  
+        - Redundancy  
+        - Effective collaboration  
+        - Security  
+        - Flexibility  
+    - Limitations:  
+        - Risk of conflicts  
+    
+      ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/DVCS.png)    
