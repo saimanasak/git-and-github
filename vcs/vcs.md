@@ -17,7 +17,7 @@
 
 <a name="features"></a>
 ### Features of VCS:  
-- Can tracks changes made to a file i.e., Versioning.  
+- Can track changes made to a file i.e., Versioning.  
 - Creates a checkpoint for a file at particluar state.  
 - Can ignore the files that we don't want to track.  
 - Can go back to the previous states of a file.  
@@ -111,6 +111,7 @@
     - Flexibility  
 - Limitations:  
     - Risk of conflicts  
+    - Potential for fragmentation (if not managed carefully)
     
     ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/DVCS.png)    
 
