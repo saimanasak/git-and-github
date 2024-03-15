@@ -1,3 +1,15 @@
+# Commands:
+
+<a name="top"></a>
+- [ git ](#git)  
+- [ config ](#config)  
+- [ init ](#init)  
+- [ clone ](#clone)  
+- [ status ](#status)  
+- [ add ](#add)
+- [ commit ](#commit)
+
+<a name="git"></a>
 ## git:  
 - A primary interface for interacting with Git.
 - Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
@@ -38,6 +50,11 @@
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_options.png)  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="config"></a>
 ## config:  
 - Used to set and get the configuration variables.
 - Controls various aspects of Git's behaviour like user info, core settings, repo related config etc..
@@ -76,6 +93,11 @@
     - Syntax:  
         `git config --edit`  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="init"></a>
 ## init:
 - This turns a local folder that isn't under version control into git repo.  
 - Creates an new empty git repo.  
@@ -94,6 +116,7 @@
     `git init -b <branch-name>`  
     `git init --initial-branch=<branch-name>`  
 
+<a name="clone"></a>
 ## clone:  
 - To create a copy of an existing repo.  
 - It also copies all the repo's info like files, commit history, branches, etc..  
@@ -102,6 +125,7 @@
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_clone.png)  
 
+<a name="status"></a>
 ## status:  
 - Used to show the current status of the working directory and staging area of Git repository.  
 - It gives info about the files that are untracked, staged and unstaged.  
@@ -110,6 +134,11 @@
 
   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_status_basic.png)  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="add"></a>
 ## add:  
 - Used to track the files.    
 - Syntax:  
@@ -190,6 +219,11 @@
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_patch.png)  
 
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="commit"></a>
 ## commit:  
 - This acts like a **checkpoint** or a **savepoint**  
 - This is used to track the changes that are made to a file.  
@@ -201,20 +235,24 @@
 - Using different options:  
     - `git commit` - using this way a commit message terminal will be displayed.  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/git_commit.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_commit.png)  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_message_terminal.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_message_terminal.png)  
 
     - `git commit -m "Some Commit Message"` - commit using a message flag.  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_m.png)   
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_m.png)   
 
     - `git commit -a -m "Some Commit Message"` - can skip the add command as both add and commit can be used in a single command.  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_am.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_am.png)  
 
     - `git commit --amend` - Can replace the most recent commit with a new commit using **--amend** flag. We can give a new commit message in the message terminal.  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_amend.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_amend.png)  
 
-    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_amend_message.png)   
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_amend_message.png)   
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
