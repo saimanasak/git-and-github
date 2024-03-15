@@ -189,3 +189,32 @@
     - **?**: help  
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_patch.png)  
+
+## commit:  
+- This acts like a **checkpoint** or a **savepoint**  
+- This is used to track the changes that are made to a file.  
+- Can revert back to the old changes easily using this command.  
+- Tracking can be easy using the commit messages.  
+- Syntax:  
+    `git commit`  
+- All the tracked files will be moved from the staged state to the local repo.  
+- Using different options:  
+    - `git commit` - using this way a commit message terminal will be displayed.  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/git_commit.png)  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_message_terminal.png)  
+
+    - `git commit -m "Some Commit Message"` - commit using a message flag.  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_m.png)   
+
+    - `git commit -a -m "Some Commit Message"` - can skip the add command as both add and commit can be used in a single command.  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_am.png)  
+
+    - `git commit --amend` - Can replace the most recent commit with a new commit using **--amend** flag. We can give a new commit message in the message terminal.  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_amend.png)  
+
+    ![screenshot](https://github.com/saimanasak/git/blob/main/screenshots/commit_amend_message.png)   
