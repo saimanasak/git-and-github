@@ -109,3 +109,83 @@
     `git status`  
 
   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_status_basic.png)  
+
+## add:  
+- Used to track the files.    
+- Syntax:  
+    `git add filename`  
+
+  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add.png)  
+
+- All the tracked files will be in the **Staging Area**.    
+- Options:   
+```
+  #path to a specific file or directory  
+> git add <path>  
+
+  #all the files in the current directory and its subdirectories  
+> git add .  
+
+  #all the files in entire repo/project  
+> git add -A  
+
+  #similar to -A option  
+> git add --all  
+
+  #all changed files and deleted files except new files  
+> git add -u  
+
+  #to track multiple files at once  
+> git add <file-name1> <file-name2> <file-name3>  
+```
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_u.png)  
+
+- There's a command that initiates an interactive mode for adding/tracking the files. It opens an interactive staging interface, known as **Interactive Add** or **Patch Mode**. We can choose the changes with a menu-driven interface.  
+    Command: `git add -i`  
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i.png)  
+
+- Options of add interactive mode:  
+    1. **status**: shows the status of the files regarding changes made.    
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_1.png)  
+
+    2. **update**: adds the specified files to the staged state.  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_2.png)  
+
+    3. **revert**: reverts back the staged files to the untracked stage.    
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_3.png)  
+
+    4. **add untracked**: adds the untracked files to the staged state.   
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_4.png)  
+
+    5. **patch**: picks up the hunks/changes and updates selectively    
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_5.png)  
+
+    6. **diff** : view the difference between the HEAD and index  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_6.png)  
+
+    7. **quit** : quits from the interactive mode  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_7.png)  
+
+    8. **help**: shows the usage of all the options  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_8.png)  
+
+- Options for the **--patch or -p** flag:  
+    - **y**: confirmation stage this change/hunk    
+    - **n**: do not stage this change/hunk  
+    - **q**: quit  
+    - **a**: stage this change and all the later changes that are made to this file specified  
+    - **d**: don't stage this change or any of the later changes that are made to this file specified  
+    - **e**: edit the current change manually  
+    - **?**: help  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_patch.png)  
