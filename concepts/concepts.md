@@ -35,4 +35,5 @@
 ## Flowchart - File Lifecycle:   
 
    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/concepts/images/git_status_flowchart.png)  
-   
+
+   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/concepts/images/git_status.png)  
