@@ -44,7 +44,7 @@
 - Syntax:  
     `git config <options>`
 - **--list**:
-    - used to get all the config variables along with their variables.
+    - Used to get all the config variables along with their variables.
     - Command:
         `git config --list`
 
@@ -72,25 +72,40 @@
         ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_config_unset.png)
 
 - **--edit**:
-    - We can edit the config file.
-    - Syntax:
-        `git config --edit`
+    - We can edit the config file.  
+    - Syntax:  
+        `git config --edit`  
 
 ## init:
-- this turns a local folder that isn't under version control into git repo.
-- creates an new empty git repo.
-- also reinitializes an existing repo.
-- Syntax:
-    `git init`
-- During this initialization, a hidden .git folder is created, and this contains all the info that Git uses to manage the project.
+- This turns a local folder that isn't under version control into git repo.  
+- Creates an new empty git repo.  
+- Also reinitializes an existing repo.  
+- Syntax:  
+    `git init`   
+- During this initialization, a hidden .git folder is created, and this contains all the info that Git uses to manage the project.  
 
 ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init.png)  
 
-- By default, when a local is initialized to git repo, it will be on the **master** branch.
+- By default, when a local is initialized to git repo, it will be on the **master** branch.  
 
 ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init_master.png)  
 
-- We can also set our own branch name while initializing a repo using:
-    `git init -b <branch-name>`
-    `git init --initial-branch=<branch-name>`
+- We can also set our own branch name while initializing a repo using:  
+    `git init -b <branch-name>`  
+    `git init --initial-branch=<branch-name>`  
 
+## clone:  
+- To create a copy of an existing repo.  
+- It also copies all the repo's info like files, commit history, branches, etc..  
+- Syntax:  
+    `git clone <repo-URL>`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_clone.png)  
+
+## status:  
+- Used to show the current status of the working directory and staging area of Git repository.  
+- It gives info about the files that are untracked, staged and unstaged.  
+- Syntax:  
+    `git status`  
+
+  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_status_basic.png)  
