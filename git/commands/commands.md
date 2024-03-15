@@ -23,7 +23,7 @@
             `git version`
             `git --version`
 
-            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_version.png)  
+            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_version.png)  
 
     - **-h**: 
         - Used to display the synopsis and a list of commonly used commands. It is used along with some command, then it displays the usage of a particular command.
@@ -32,9 +32,9 @@
             `git --help`
             `git <command> -h`
             
-            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_help.png)  
+            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_help.png)  
 
-            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_command_help.png)  
+            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_command_help.png)  
 
     - **-c <path>**: 
         - This allows us to run Git commands as if we were in a different directory than the current working directory.  
@@ -44,11 +44,11 @@
             `git -C demo init`
             - Here, demo is the directory which is present inside the current directory and init is the command which is used to initialize the directory into git repo. We can use any other commands as well.  
 
-            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_c.png)  
+            ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_c.png)  
 
 - There are many other options like:  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_options.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_options.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -65,7 +65,7 @@
     - Command:
         `git config --list`
 
-        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_config_list.png)   
+        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_config_list.png)   
     
 - **username** and **email**:
     - Before making any commits, make sure to set email and username.
@@ -79,14 +79,14 @@
             `git config user.email`
             `git config user.name`
 
-        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_config_name_mail.png)  
+        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_config_name_mail.png)  
 
     - We can also set the configuration in a system level **--system** and for a particular repo level **--local**
     - To remove a configuration variable, we can use **--unset**
     - Syntax: 
         `git config --unset <variable>`
 
-        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_config_unset.png)
+        ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_config_unset.png)
 
 - **--edit**:
     - We can edit the config file.  
@@ -106,11 +106,11 @@
     `git init`   
 - During this initialization, a hidden .git folder is created, and this contains all the info that Git uses to manage the project.  
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init.png)  
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_init.png)  
 
 - By default, when a local is initialized to git repo, it will be on the **master** branch.  
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_init_master.png)  
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_init_master.png)  
 
 - We can also set our own branch name while initializing a repo using:  
     `git init -b <branch-name>`  
@@ -123,7 +123,7 @@
 - Syntax:  
     `git clone <repo-URL>`  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_clone.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_clone.png)  
 
 <a name="status"></a>
 ## status:  
@@ -132,7 +132,7 @@
 - Syntax:  
     `git status`  
 
-  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_status_basic.png)  
+  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_status_basic.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -144,7 +144,7 @@
 - Syntax:  
     `git add filename`  
 
-  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add.png)  
+  ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add.png)  
 
 - All the tracked files will be in the **Staging Area**.    
 - Options:   
@@ -168,45 +168,45 @@
 > git add <file-name1> <file-name2> <file-name3>  
 ```
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_u.png)  
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_u.png)  
 
 - There's a command that initiates an interactive mode for adding/tracking the files. It opens an interactive staging interface, known as **Interactive Add** or **Patch Mode**. We can choose the changes with a menu-driven interface.  
     Command: `git add -i`  
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i.png)  
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i.png)  
 
 - Options of add interactive mode:  
     1. **status**: shows the status of the files regarding changes made.    
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_1.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_1.png)  
 
     2. **update**: adds the specified files to the staged state.  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_2.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_2.png)  
 
     3. **revert**: reverts back the staged files to the untracked stage.    
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_3.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_3.png)  
 
     4. **add untracked**: adds the untracked files to the staged state.   
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_4.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_4.png)  
 
     5. **patch**: picks up the hunks/changes and updates selectively    
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_5.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_5.png)  
 
     6. **diff** : view the difference between the HEAD and index  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_6.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_6.png)  
 
     7. **quit** : quits from the interactive mode  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_7.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_7.png)  
 
     8. **help**: shows the usage of all the options  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_i_8.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_i_8.png)  
 
 - Options for the **--patch or -p** flag:  
     - **y**: confirmation stage this change/hunk    
@@ -217,7 +217,7 @@
     - **e**: edit the current change manually  
     - **?**: help  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_add_patch.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/ommands/images/git_add_patch.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -235,23 +235,23 @@
 - Using different options:  
     - `git commit` - using this way a commit message terminal will be displayed.  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/git_commit.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_commit.png)  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_message_terminal.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_message_terminal.png)  
 
     - `git commit -m "Some Commit Message"` - commit using a message flag.  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_m.png)   
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_m.png)   
 
     - `git commit -a -m "Some Commit Message"` - can skip the add command as both add and commit can be used in a single command.  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_am.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_am.png)  
 
     - `git commit --amend` - Can replace the most recent commit with a new commit using **--amend** flag. We can give a new commit message in the message terminal.  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_amend.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_amend.png)  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/commands/images/commit_amend_message.png)   
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_amend_message.png)   
 
 <p align="right">
   <a href="#top">▲Home▲</a>

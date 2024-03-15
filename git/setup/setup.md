@@ -23,4 +23,4 @@
 > git version
 ```
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/setup/images/git_version.png)  
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/setup/images/git_version.png)  

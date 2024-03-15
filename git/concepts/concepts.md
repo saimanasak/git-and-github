@@ -51,9 +51,9 @@
 <a name="fc"></a>
 ## Flowchart - File Lifecycle:   
 
-   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/concepts/images/git_status_flowchart.png)  
+   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/concepts/images/git_status_flowchart.png)  
 
-   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/concepts/images/git_status.png)  
+   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/concepts/images/git_status.png)  
 
 <a name="wt"></a>
 ## Working Tree:  
@@ -61,4 +61,4 @@
 - It encompasses all files being edited in your project folder, including those tracked by Git and any new files created that Git is not currently monitoring.  
 - In brief, the working tree contains the most up-to-date versions of files or their current states.  
 
-   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/concepts/images/working_tree.png)   
+   ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/concepts/images/working_tree.png)   
