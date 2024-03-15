@@ -7,7 +7,10 @@
 - [ clone ](#clone)  
 - [ status ](#status)  
 - [ add ](#add)
-- [ commit ](#commit)
+- [ commit ](#commit)  
+- [ diff ](#diff)  
+- [ log ](#log)  
+- [ show ](#show)
 
 <a name="git"></a>
 ## git:  
@@ -217,7 +220,7 @@
     - **e**: edit the current change manually  
     - **?**: help  
 
-    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/ommands/images/git_add_patch.png)  
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_add_patch.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -252,6 +255,83 @@
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_amend.png)  
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/commit_amend_message.png)   
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="diff"></a>
+## diff:  
+- It is used to view the changes between commits, branches, files, etc..  
+- Shows the differences between staging area and the working directory i.e., lists all the changes in the working directory that aren't staged for the next commit.  
+- Syntax:
+      ```
+      git diff
+      ```
+- `git diff HEAD` - lists all the changes in the working directory since the last commit.  
+- `git diff --staged` or `git diff --cached` - lists the changes of the files in the staging area and last commit.  
+- `git diff branch1..branch2` or `git diff branch1 branch2` - compares all the files in the mentioned 2 branches.  
+- `git diff commit1..commit2` or `git diff commit1 commit2` - compares the files of 2 commits.  
+- We can also compare a specific file using: `git diff <file-name>`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_diff.png)  
+
+- Output:
+    - **Compared Files or Diff Header**: 
+        - diff --git a/colors.txt b/colors.txt  
+        - Shows the names of the files that are being compared  
+        - a/colors.txt refers to the original version  
+        - b/colors.txt refers to the modified version  
+    - **File Metadata or Index Line**:  
+        - index a9d1386..fa3e75c 100644  
+        - Gives info about the staging area that represents the state of a file in the repo.  
+        - a9d1386..fa3e75c refers to the hash values of the 2 versions of file.  
+        - 100644 refers to the internal file mode identifier  
+    - **Markers or File Change Section**:  
+        - --- a/colors.txt and +++ b/colors.txt  
+        - represents the original version and modified version of file  
+    - **Chunks or Chunk Header**:  
+        - @@ -1 +1,2 @@  
+        - Info about the lines that are being compared.  
+        - -1 indicates the starting line number in the 'a' version  
+        - +1,2 indicates the starting line number in the 'b' version (+1) and the number of lines changed (2).  
+    - **Changes**:  
+        -  red and +yellow  
+        - lines that begin with - come from original version.  
+        - lines that begin with + come from modified version.  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="log"></a>
+## log:  
+- Displays the commit history and most recent commits are displayed first.  
+- Syntax:  
+      ```
+      git
+      ```
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_log.png)  
+
+- `git log --oneline` or `git log --pretty=oneline`: displays the logs in a simplified way.  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_log_oneline.png)  
+
+- `git log -p`: displays the commits along with its particular changes that are made.  
+
+<a name="show"></a>
+## show:  
+- Displays the detailed info about a specific objects.  
+- Objects: commits, tags, branches, tree objects, blob objects, annotated tags...  
+- By default, it displays the detailed info about the most recent commit.  
+- Syntax:  
+      `git show`
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_show.png)  
+
+- Syntax to use a specific object:  
+      `git show <object-id>`  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
