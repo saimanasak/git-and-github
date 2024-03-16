@@ -1,16 +1,25 @@
 # Commands:
 
 <a name="top"></a>
-- [ git ](#git)  
-- [ config ](#config)  
-- [ init ](#init)  
-- [ clone ](#clone)  
-- [ status ](#status)  
-- [ add ](#add)
-- [ commit ](#commit)  
-- [ diff ](#diff)  
-- [ log ](#log)  
-- [ show ](#show)
+- [ Basic Snapshotting ](#basic-snapshotting)  
+    - [ git ](#git)  
+    - [ config ](#config)  
+    - [ init ](#init)  
+    - [ clone ](#clone)  
+    - [ status ](#status)  
+    - [ add ](#add)
+    - [ commit ](#commit)  
+    - [ diff ](#diff)  
+    - [ log ](#log)  
+    - [ show ](#show)  
+    - [ notes ](#notes)  
+    - [ restore ](#restore)  
+    - [ reset ](#reset)  
+    - [ rm ](#rm)  
+    - [ mv ](#mv)  
+
+<a name="basic"></a>
+# Basic Snapshotting:  
 
 <a name="git"></a>
 ## git:  
@@ -309,7 +318,7 @@
 - Displays the commit history and most recent commits are displayed first.  
 - Syntax:  
       ```
-      git
+      git log
       ```
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_log.png)  
@@ -332,6 +341,84 @@
 
 - Syntax to use a specific object:  
       `git show <object-id>`  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="notes"></a>
+## notes:  
+- Allows to attach additional info to specific git objects.  
+- Why?  
+  - Can provide additional info about a commit which is beyond the regular commit message.  
+  - Serves as a form of documentation.  
+  - To track testing information such as test results, test coverage, or other testing-related info.  
+- Syntax:  
+    `git notes <actions> <object-id>`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_notes.png)  
+
+- `git notes show <object-id>`: Displays the notes attached to the specified object.  
+- `git notes edit <object-id>`: Opens the default text editor to edit the notes attached to the specified object.  
+- `git notes remove <object-id>`: Removes the notes attached to the specified object.  
+- `git notes list`: Lists the references to all notes in the repository.  
+
+<a name="restore"></a>
+## restore:  
+- To restore the files in the working directory or staging area to their state of the last commit or specific commit.  
+- Syntax:  
+      `git restore <file-name>`  
+- Can restore the file that isn't present in the staging area.  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_restore.png)  
+
+- `git restore .`: It restores all the files in the current directory.  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="reset"></a>
+## reset:  
+- Used to move the repository back to a previous commit, that discards any changes made after that commit  
+- Syntax:  
+      `git reset <option> <commit>`  
+- Three modes:  
+    - **--soft**: moves the HEAD pointer back to the specified commit while keeping the changes from the last commit in the staging area and working directory. Here, changes are staged.  
+    - **--mixed**: moves the HEAD pointer back to the specified commit while unstaging the changes from the last commit in the staging area, leaving them in the working directory. Here, changes are unstaged.  
+    - **--hard**: moves the HEAD pointer back to the specified commit while discarding the changes from the last commit in both the staging area and the working directory. Here, changes are removed.  
+- If any of the mode isn't specified, it considers the --mixed mode.  
+- Can move back to the original phase, it can be done by using the reset command for hash value (if we are aware/remeber the previous hash value)  
+- If we make new changes after performing a git reset --hard, those new changes will be unrelated to the discarded changes. When you commit the files after the reset, only the new changes will be included in the commit, and the discarded changes will not be part of the commit history.
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_reset_soft.png)  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_reset_mixed.png)  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_reset_hard.png)   
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="rm"></a>
+## rm:  
+- Used to remove the files from the both working directory and staging area.  
+- Syntax:  
+      `git rm <file-name>`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_rm.png)  
+
+- `git rm --cached <file-name>`: to remove only from the staging area.  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_rm_cached.png)  
+
+<a name="mv"></a>
+## mv:  
+- Used to move or rename files and directories within a Git repository.  
+- It is a combination of the mv command (for moving or renaming files in your file system) and the git rm and git add commands (for removing the old file and adding the new file to the staging area).  
+- Syntax:  
+    `git mv <old-file-path> <new-file-path>`  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
