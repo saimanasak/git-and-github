@@ -18,6 +18,8 @@
     - [ rm ](#rm)  
     - [ mv ](#mv)  
     - [ branch ](#branch)  
+    - [ merge ](#merge)  
+    - [ checkout ](#checkout)  
 
 <a name="basic"></a>
 # Basic Snapshotting:  
@@ -450,6 +452,33 @@
     `git branch -a`  
 
     ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_branch.png)  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="merge"></a>
+## merge:  
+- We merge branches not specific commits.  
+- Always merge to the current HEAD branch.  
+- To merge from branch1 to branch2:  
+    - Switch to the branch2 - `git switch branch1`  
+    - Then merge the branch1 into branch2 - `git merge branch1`  
+- Before merging, the branches should be clean i.e., there shouldn't be any untracked changes; check this using - `git status`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_merge.png)  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_merge_log.png)  
+
+<a name="checkout"></a>
+## checkout:  
+- It allows to navigate between different branches, inspect changes, and manipulate files within repo.  
+- It is used for many purposes.  
+- A bit similar to branch command, but checkout has many other purposes.  
+- to switch branches:  
+    `git checkout <branch-name>`  
+- to create and switch to new branch:  
+    `git checkout -b <branch-name>`  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
