@@ -12,6 +12,7 @@
 - Git is a free open source distributed version control system.
 - It allows to track the changes of the files and to collaborate the work among multiple developers.  
 - It runs locally on a machine.  
+- Git stores data as a series of snapshots.  
 
 <a name="intro"></a>
 ### Advantages:  
@@ -47,27 +48,27 @@
 1. Setup:  
     - installation
 2. Config:  
-    - git  
-    - config  
-    - help  
+    - [git](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#git)    
+    - [config](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#config)    
+    - [help](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#git)   
     - bugreport  
 3. Creating & getting projects:  
-    - init  
-    - clone  
+    - [init](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#init)  
+    - [clone](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#clone)  
 4. Basic snapshotting:  
-    - add  
-    - status  
-    - commit   
-    - restore
-    - reset  
-    - rm  
-    - mv  
-    - notes  
+    - [add](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#add)  
+    - [status](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#status)  
+    - [commit](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#commit)   
+    - [restore](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#restore)  
+    - [reset](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#reset)  
+    - [rm](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#rm)  
+    - [mv](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#mv)  
+    - [notes](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#notes)  
 5. Branching and Merging:  
-    - branch  
-    - checkout  
-    - switch  
-    - merge
+    - [branch](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#branch)  
+    - [checkout](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#checkout)      
+    - [switch](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#branch)    
+    - [merge](https://github.com/saimanasak/git-and-github/blob/main/git/commands/commands.md#merge)  
     - mergetool  
     - stash   
     - worktree  
@@ -94,47 +95,6 @@
     - revert  
     - apply  
     - cherry-pick  
-10. email:  
-    - am  
-    - send-email
-    - format-patch
-    - request-pull  
-11. External Systems:  
-    - svn  
-    - fast-import  
-12. Administration:  
-    - clean  
-    - reflog  
-    - gc
-    - fsck  
-    - archive  
-    - filter-branch
-    - instaweb  
-    - bundle  
-13. Server admin:  
-    - daemon  
-    - update-server-info  
-14. Plumbing commands:  
-    - cat-file
-    - check-ignore
-    - checkout-index
-    - commit-tree
-    - count-objects
-    - diff-index
-    - for-each-ref
-    - hash-object
-    - ls-files
-    - ls-tree
-    - merge-base
-    - read-tree
-    - rev-list
-    - rev-parse
-    - show-ref
-    - symbolic-ref
-    - update-index
-    - update-ref
-    - verify-pack
-    - write-tree
 
 - Reference: [Doc](https://git-scm.com/docs)  
 
