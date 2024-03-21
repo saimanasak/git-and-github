@@ -17,6 +17,7 @@
     - [ reset ](#reset)  
     - [ rm ](#rm)  
     - [ mv ](#mv)  
+    - [ branch ](#branch)  
 
 <a name="basic"></a>
 # Basic Snapshotting:  
@@ -419,6 +420,36 @@
 - It is a combination of the mv command (for moving or renaming files in your file system) and the git rm and git add commands (for removing the old file and adding the new file to the staging area).  
 - Syntax:  
     `git mv <old-file-path> <new-file-path>`  
+
+<p align="right">
+  <a href="#top">▲Home▲</a>
+</p>
+
+<a name="branch"></a>
+## branch:  
+- A new or separate version of the main repo.  
+- We can create, list or delete the branches.  
+- to create a branch:  
+    `git branch <branch-name>`  
+- to switch:  
+    `git switch <branch-name>`  
+- to do both creating and switching:  
+    `git switch -c <branch-name>`  
+- to list all the branches:  
+    `git branch`  
+- to delete a branch:  
+    `git branch -d <branch-name>`  
+- to delete a branch forcefully:  
+    `git branch -D <branch-name>`  
+    - cannot delete a branch when you are on it.  
+- to rename or move a branch:  
+    `git branch -m <new-branch-name>`  
+- to rename or move a branch forcefully:  
+    `git branch -M <new-branch-name>`  
+- to list all the branches both remote-tracking and remote branches:  
+    `git branch -a`  
+
+    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/commands/images/git_branch.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
