@@ -8,6 +8,8 @@
 - [ Unstaged ](#unstaged)  
 - [ Flowchart ](#flowchart---file-lifecycle)  
 - [ Working Tree ](#working-tree)  
+- [ bracnhing ](#branching)  
+- [ HEAD ](#head)  
 
 <a name="repo"></a>
 ## Repository:  
@@ -62,3 +64,17 @@
 - In brief, the working tree contains the most up-to-date versions of files or their current states.  
 
    ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/git/concepts/images/working_tree.png)   
+
+<a name="branching"></a>
+## Branching:  
+- A branch in Git is simply a lightweight movable pointer to commit; nothing but a new or separate version of the main repo.  
+- Each branch represents an independent line of development, we can switch between the branches to work on different features, bug fixes, or some different experiments etc...  
+- If we make changes on one branch , they do not impact the other branches until we merge them.  
+- Branching is used when we have multiple contexts.  
+- Enables us to create separate contexts where we can try new things, or work on multiple ideas in parallel.  
+
+<a name="HEAD"></a>
+## HEAD:  
+- Points to recent commit or branch in the repo.  
+- It is crucial for navigating and managing the state of repo.  
+- It acts as: Current state indicator and Branch pointer.   
