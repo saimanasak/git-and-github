@@ -8,8 +8,9 @@
 - [ Unstaged ](#unstaged)  
 - [ Flowchart ](#flowchart---file-lifecycle)  
 - [ Working Tree ](#working-tree)  
-- [ bracnhing ](#branching)  
+- [ Bracnhing ](#branching)  
 - [ HEAD ](#head)  
+- [ Merging ](#merging)  
 
 <a name="repo"></a>
 ## Repository:  
@@ -72,9 +73,19 @@
 - If we make changes on one branch , they do not impact the other branches until we merge them.  
 - Branching is used when we have multiple contexts.  
 - Enables us to create separate contexts where we can try new things, or work on multiple ideas in parallel.  
+- Whenever a branch is created from another branch, then all the files that are present will be reflected to the new branch.  
+    - Ex: There's a branch called old-branch, when a branch called new-branch is created from this branch, then everything from the old-branch will be present in the new-branch.  
 
 <a name="HEAD"></a>
 ## HEAD:  
 - Points to recent commit or branch in the repo.  
 - It is crucial for navigating and managing the state of repo.  
 - It acts as: Current state indicator and Branch pointer.   
+
+<a name="merging"></a>
+## Merging:  
+- It is a process of combining the changes from different branches into a single branch.  
+- It allows to integrate the work done in separate branches back into the main line of development in repo.    
+- Merging enables collaboration and ensures that all changes made by different developers are consolidated into a unified codebase.  
+- We merge branches not specific commits.  
+- Always merge to the current HEAD branch.  
