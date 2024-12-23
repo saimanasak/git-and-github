@@ -37,3 +37,7 @@ git start
 ```
 
 ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_start.png)
+
+#### Exercises
+[Exercise 1](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex1_master)
+[Exercise 2](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex2_commit-one-file)
