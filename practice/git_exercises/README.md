@@ -16,7 +16,7 @@ git clone https://gitexercises.fracz.com/git/exercises.git
 cd exercies
 ```
 
-![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/cd_exercies.png)
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/cd_exercises.png)
 
 3. Configure:
 ```bash
