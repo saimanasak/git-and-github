@@ -38,6 +38,27 @@ git start
 
 ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_start.png)
 
+6. List of exercies:
+```bash
+git exercises
+```
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_exercises.png)
+
+7. Command to move to the next exercise:
+```bash
+git start next
+
+(OR)
+
+git start <exercise-name>
+```
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_start_next.png)
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_start_commit_one_file.png)
+
 #### Exercises
-[Exercise 1](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex1_master)
-[Exercise 2](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex2_commit-one-file)
+- [Exercise 1](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex1_master)
+- [Exercise 2](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex2_commit-one-file)
+- [Exercise 3](https://github.com/saimanasak/git-and-github/tree/main/practice/git_exercises/ex3_commit-one-file-staged)
