@@ -69,7 +69,7 @@
     - Risk of data loss  
     - No remote access  
 
-    ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/LVCS.png)  
+    ![LVCS](https://github.com/saimanasak/git-and-github/blob/main/version-control-system/images/LVCS.png)  
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -97,7 +97,7 @@
     - Limited offline access  
     - Potential data loss  
      
-    ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/CVCS.png)    
+    ![CVCS](https://github.com/saimanasak/git-and-github/blob/main/version-control-system/images/CVCS.png)    
 
 <p align="right">
   <a href="#top">▲Home▲</a>
@@ -127,7 +127,7 @@
     - Risk of conflicts  
     - Potential for fragmentation (if not managed carefully)
     
-    ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/vcs/images/DVCS.png)    
+    ![DVCS](https://github.com/saimanasak/git-and-github/blob/main/version-control-system/images/DVCS.png)    
 
 <a name="why dvcs"></a>
 ### Why DVCS?  
