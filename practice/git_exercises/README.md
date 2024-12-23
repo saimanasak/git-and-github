@@ -9,10 +9,14 @@
 git clone https://gitexercises.fracz.com/git/exercises.git
 ```
 
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/initial_git_clone.png)
+
 2. Change the directory:
 ```bash
 cd exercies
 ```
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/cd_exercies.png)
 
 3. Configure:
 ```bash
@@ -25,7 +29,11 @@ git config user.email "Your eMail"
 ./configure.sh
 ```
 
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/configure_sh.png)
+
 5. Initialize the first exercise:
 ```bash
 git start
 ```
+
+![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/git_start.png)
