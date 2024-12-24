@@ -1,7 +1,7 @@
 #### Step 1:
 - Initialize the exercise using the below command:
 ```bash
-git start commit-one-file-staged
+git start ignore-them
 
 (OR)
 
@@ -79,7 +79,7 @@ git status
 
 ![screenshot](https://github.com/saimanasak/git-and-github/blob/main/practice/git_exercises/assets/ignore_them_status.png)
 
-#### Step 5:
+#### Step 6:
 - Verify the above steps.
 ```bash
 git verify
